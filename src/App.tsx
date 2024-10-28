@@ -158,7 +158,7 @@ const DynamicFilter = () => {
             Сбросить фильтры
           </button>
 
-          <div style={{ whiteSpace: "pre-wrap" }} >
+          <div className='filter'>
             {JSON.stringify(filterValues, null, 2)}
           </div>
         </>
